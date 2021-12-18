@@ -1,0 +1,477 @@
+main
+    .container
+        // =============== SIDE MENU AND BANNER-TOP ===============
+        .wrapper-banner
+            // it balances different height between .side-menu and banner top
+            .col-left
+                ul.side-menu
+                    li
+                        a(href='#!')
+                            i.fa.fa-play-circle-o(aria-hidden='true')
+                            img(src='images/arrow.jpg')
+                            |    Clothing
+                    li
+                        a(href='#!')
+                            i.fa.fa-play-circle-o(aria-hidden='true')
+                            img(src='images/arrow.jpg')
+                            |    Electronics
+                    li
+                        a(href='#!')
+                            i.fa.fa-play-circle-o(aria-hidden='true')
+                            img(src='images/arrow.jpg')
+                            |    Shoes
+                    li
+                        a(href='#!')
+                            i.fa.fa-play-circle-o(aria-hidden='true')
+                            img(src='images/arrow.jpg')
+                            |    Watches
+                    li
+                        a(href='#!')
+                            i.fa.fa-play-circle-o(aria-hidden='true')
+                            img(src='images/arrow.jpg')
+                            |    Jewellery
+                    li
+                        a(href='#!')
+                            i.fa.fa-play-circle-o(aria-hidden='true')
+                            img(src='images/arrow.jpg')
+                            |    Health and Beauty
+                    li
+                        a(href='#!')
+                            i.fa.fa-play-circle-o(aria-hidden='true')
+                            img(src='images/arrow.jpg')
+                            |    Kids and Babies
+                    li
+                        a(href='#!')
+                            i.fa.fa-play-circle-o(aria-hidden='true')
+                            img(src='images/arrow.jpg')
+                            |    Sports
+                    li
+                        a(href='#!')
+                            i.fa.fa-play-circle-o(aria-hidden='true')
+                            img(src='images/arrow.jpg')
+                            |    Home and Garden
+                // .side-menu
+            // .col-left
+            .col-right.banner-top
+                a(href='#!')
+                    img(src='images/banner-top.png' alt='banner')
+            // .col-right.banner-top
+        // .wrapper-banner
+        // ================ END OF SIDE MENU AND BANNER-TOP =====================
+        // =================== JCAROUSEL 1 ===================
+        .col-left.goods-block
+            header.goods-block__header1
+                h2.block-name hot deals
+                a(href='#!')
+                    span.control-jcarousel2-next
+                        i.fa.fa-caret-right(aria-hidden='true')
+                            img(src='images/arrow_right.png')
+
+                a(href='#!')
+                    span.control-jcarousel2-prev
+                        i.fa.fa-caret-left(aria-hidden='true')
+                            img(src='images/arrow_left.png')
+            .jcarousel
+                ul.goods-list1
+                    li.goods-list__item1
+                        a(href='#!')
+                            .good-images.hot_deals
+                            p.good-name Lorem ipsum dolor
+                        p.price
+                            span.old-price $100.00
+                            span.new-price $90.00
+                        .rating-area1
+                            input#star-5(type='radio', name='rating', value='5')
+                            label(for='star-5', title='Оценка «5»')
+                            input#star-4(type='radio', name='rating', value='4')
+                            label(for='star-4', title='Оценка «4»')
+                            input#star-3(type='radio', name='rating', value='3')
+                            label(for='star-3', title='Оценка «3»')
+                            input#star-2(type='radio', name='rating', value='2')
+                            label(for='star-2', title='Оценка «2»')
+                            input#star-1(type='radio', name='rating', value='1')
+                            label(for='star-1', title='Оценка «1»')
+                // .goods-list
+            // .jcarousel
+        // .col-left .goods-block.block-1-good
+        // ====================== END OF JCAROUSEL 1 ========================
+        // ======================= JCAROUSEL 2 ===================
+        .col-right.goods-block
+            header.goods-block__header
+                h2.block-name new products
+                a(href='#!')
+                    span.control-jcarousel2-next
+                        i.fa.fa-caret-right(aria-hidden='true')
+                            .img1
+                a(href='#!')
+                    span.control-jcarousel2-prev
+                        i.fa.fa-caret-left(aria-hidden='true')
+                            .img2
+            .jcarousel2
+                ul.goods-list
+                    li.goods-list__item
+                        a(href='#!')
+                            .good-images.new_products1
+                            p.good-name Lorem ipsum dolor
+                        p.price
+                            span.old-price $100.00
+                            span.new-price $90.00
+                        .rating-area
+                            input#star-5(type='radio', name='rating', value='5')
+                            label(for='star-5', title='Оценка «5»')
+                            input#star-4(type='radio', name='rating', value='4')
+                            label(for='star-4', title='Оценка «4»')
+                            input#star-3(type='radio', name='rating', value='3')
+                            label(for='star-3', title='Оценка «3»')
+                            input#star-2(type='radio', name='rating', value='2')
+                            label(for='star-2', title='Оценка «2»')
+                            input#star-1(type='radio', name='rating', value='1')
+                            label(for='star-1', title='Оценка «1»')
+                    li.goods-list__item
+                        a(href='#!')
+                            .good-images.new_products2
+                            p.good-name Lorem ipsum dolor
+                        p.price
+                            span.old-price $100.00
+                            span.new-price $90.00
+                        .rating-area
+                            input#star-5(type='radio', name='rating', value='5')
+                            label(for='star-5', title='Оценка «5»')
+                            input#star-4(type='radio', name='rating', value='4')
+                            label(for='star-4', title='Оценка «4»')
+                            input#star-3(type='radio', name='rating', value='3')
+                            label(for='star-3', title='Оценка «3»')
+                            input#star-2(type='radio', name='rating', value='2')
+                            label(for='star-2', title='Оценка «2»')
+                            input#star-1(type='radio', name='rating', value='1')
+                            label(for='star-1', title='Оценка «1»')
+                    li.goods-list__item
+                        a(href='#!')
+                            .good-images.new_products3
+                            p.good-name Lorem ipsum dolor
+                        p.price
+                            span.old-price $100.00
+                            span.new-price $90.00
+                        .rating-area
+                            input#star-5(type='radio', name='rating', value='5')
+                            label(for='star-5', title='Оценка «5»')
+                            input#star-4(type='radio', name='rating', value='4')
+                            label(for='star-4', title='Оценка «4»')
+                            input#star-3(type='radio', name='rating', value='3')
+                            label(for='star-3', title='Оценка «3»')
+                            input#star-2(type='radio', name='rating', value='2')
+                            label(for='star-2', title='Оценка «2»')
+                            input#star-1(type='radio', name='rating', value='1')
+                            label(for='star-1', title='Оценка «1»')
+                    li.goods-list__item
+                        a(href='#!')
+                            .good-images.new_products4
+                            p.good-name Lorem ipsum dolor
+                        p.price
+                            span.old-price $100.00
+                            span.new-price $90.00
+                        .rating-area
+                            input#star-5(type='radio', name='rating', value='5')
+                            label(for='star-5', title='Оценка «5»')
+                            input#star-4(type='radio', name='rating', value='4')
+                            label(for='star-4', title='Оценка «4»')
+                            input#star-3(type='radio', name='rating', value='3')
+                            label(for='star-3', title='Оценка «3»')
+                            input#star-2(type='radio', name='rating', value='2')
+                            label(for='star-2', title='Оценка «2»')
+                            input#star-1(type='radio', name='rating', value='1')
+                            label(for='star-1', title='Оценка «1»')
+                // .jcarousel2
+            // .goods-block
+        // .col-right block-4-goods
+        // ====================== END OF JCAROUSEL 2 ========================
+        // ========================JCAROUSEL 3========================
+        .col-left.goods-block
+            header.goods-block__header1
+                h2.block-name special deal
+                a(href='#!')
+                    span.control-jcarousel2-next
+                        i.fa.fa-caret-right(aria-hidden='true')
+                            img(src='images/arrow_right.png')
+                a(href='#!')
+                    span.control-jcarousel2-prev
+                        i.fa.fa-caret-left(aria-hidden='true')
+                            img(src='images/arrow_left.png')
+            .jcarousel3
+                ul.goods-list1
+                    li.goods-list__item1
+                        a(href='#!')
+                            .good-images.new_products3
+                            p.good-name Lorem ipsum dolor
+                        p.price
+                            span.old-price $100.00
+                            span.new-price $90.00
+                        .rating-area1
+                            input#star-5(type='radio', name='rating', value='5')
+                            label(for='star-5', title='Оценка «5»')
+                            input#star-4(type='radio', name='rating', value='4')
+                            label(for='star-4', title='Оценка «4»')
+                            input#star-3(type='radio', name='rating', value='3')
+                            label(for='star-3', title='Оценка «3»')
+                            input#star-2(type='radio', name='rating', value='2')
+                            label(for='star-2', title='Оценка «2»')
+                            input#star-1(type='radio', name='rating', value='1')
+                            label(for='star-1', title='Оценка «1»')
+                // .goods-list
+            // .jcarousel3
+        // .col-left .goods-block.block-1-good
+        // ====================== END OF JCAROUSEL 3 =======================
+        // ====================== TWO BANNERS IN THE MIDDLE OF PAGE ========
+        .banner-middle.banner-middle--1
+            a(href='#!')
+        .banner-middle.banner-middle--2
+            a(href='#!')
+        // ========================== END OF BANNERS ========================
+        // ======================== NEWSLETTERS BLOCK =======================
+        .col-left.goods-block.newsletters-block
+            header.goods-block__header
+                h2.block-name newsletters
+            p Sign Up for Our Newsletter!
+            form
+                input.user-email(type='email' name='user-email')
+                input.subscribe(type='submit' value='subscribe')
+        // ======================== JCAROUSEL 4 ========================
+        .col-right.goods-block
+            header.goods-block__header
+                h2.block-name latest products
+                a(href='#!')
+                    span.control-jcarousel4-next
+                        i.fa.fa-caret-right(aria-hidden='true')
+                            .img1
+                a(href='#!')
+                    span.control-jcarousel4-prev
+                        i.fa.fa-caret-left(aria-hidden='true')
+                            .img2
+            .jcarousel4
+                ul.goods-list
+                    li.goods-list__item
+                        a(href='#!')
+                            .good-images.latest_products1
+                            p.good-name Lorem ipsum dolor
+                        p.price
+                            span.old-price $100.00
+                            span.new-price $90.00
+                        .rating-area
+                            input#star-5(type='radio', name='rating', value='5')
+                            label(for='star-5', title='Оценка «5»')
+                            input#star-4(type='radio', name='rating', value='4')
+                            label(for='star-4', title='Оценка «4»')
+                            input#star-3(type='radio', name='rating', value='3')
+                            label(for='star-3', title='Оценка «3»')
+                            input#star-2(type='radio', name='rating', value='2')
+                            label(for='star-2', title='Оценка «2»')
+                            input#star-1(type='radio', name='rating', value='1')
+                            label(for='star-1', title='Оценка «1»')
+                    li.goods-list__item
+                        a(href='#!')
+                            .good-images.latest_products2
+                            p.good-name Lorem ipsum dolor
+                        p.price
+                            span.old-price $100.00
+                            span.new-price $90.00
+                        .rating-area
+                            input#star-5(type='radio', name='rating', value='5')
+                            label(for='star-5', title='Оценка «5»')
+                            input#star-4(type='radio', name='rating', value='4')
+                            label(for='star-4', title='Оценка «4»')
+                            input#star-3(type='radio', name='rating', value='3')
+                            label(for='star-3', title='Оценка «3»')
+                            input#star-2(type='radio', name='rating', value='2')
+                            label(for='star-2', title='Оценка «2»')
+                            input#star-1(type='radio', name='rating', value='1')
+                            label(for='star-1', title='Оценка «1»')
+                    li.goods-list__item
+                        a(href='#!')
+                            .good-images.latest_products3
+                            p.good-name Lorem ipsum dolor
+                        p.price
+                            span.old-price $100.00
+                            span.new-price $90.00
+                        .rating-area
+                            input#star-5(type='radio', name='rating', value='5')
+                            label(for='star-5', title='Оценка «5»')
+                            input#star-4(type='radio', name='rating', value='4')
+                            label(for='star-4', title='Оценка «4»')
+                            input#star-3(type='radio', name='rating', value='3')
+                            label(for='star-3', title='Оценка «3»')
+                            input#star-2(type='radio', name='rating', value='2')
+                            label(for='star-2', title='Оценка «2»')
+                            input#star-1(type='radio', name='rating', value='1')
+                            label(for='star-1', title='Оценка «1»')
+                    li.goods-list__item
+                        a(href='#!')
+                            .good-images.latest_products4
+                            p.good-name Lorem ipsum dolor
+                        p.price
+                            span.old-price $100.00
+                            span.new-price $90.00
+                        .rating-area
+                            input#star-5(type='radio', name='rating', value='5')
+                            label(for='star-5', title='Оценка «5»')
+                            input#star-4(type='radio', name='rating', value='4')
+                            label(for='star-4', title='Оценка «4»')
+                            input#star-3(type='radio', name='rating', value='3')
+                            label(for='star-3', title='Оценка «3»')
+                            input#star-2(type='radio', name='rating', value='2')
+                            label(for='star-2', title='Оценка «2»')
+                            input#star-1(type='radio', name='rating', value='1')
+                            label(for='star-1', title='Оценка «1»')
+                // .jcarousel4
+            // .goods-block
+        // .col-right block-4-goods
+        // ====================== END OF JCAROUSEL 4  ========================
+        .col-left.commercial
+        .col-right.goods-block.banner-bottom
+            a(href='#!')
+        // =========================== JCAROUSEL 5 ===========================
+        .col-right.goods-block
+            header.goods-block__header
+                h2.block-name latest products
+                a(href='#!')
+                    span.control-jcarousel5-next
+                        i.fa.fa-caret-right(aria-hidden='true')
+                            .img1
+                a(href='#!')
+                    span.control-jcarousel5-prev
+                        i.fa.fa-caret-left(aria-hidden='true')
+                            .img2
+            .jcarousel5
+                ul.goods-list
+                    li.goods-list__item.goods-list__item--double
+                        a(href='#!')
+                            .good-images.latest_products1
+                        p.info
+                            span Lorem ipsum dolor
+                            br
+                            span.old-price $100.00
+                            span.new-price $90.00
+                            br
+                            i.rating-area
+                                input#star-5(type='radio', name='rating', value='5')
+                                label(for='star-5', title='Оценка «5»')
+                                input#star-4(type='radio', name='rating', value='4')
+                                label(for='star-4', title='Оценка «4»')
+                                input#star-3(type='radio', name='rating', value='3')
+                                label(for='star-3', title='Оценка «3»')
+                                input#star-2(type='radio', name='rating', value='2')
+                                label(for='star-2', title='Оценка «2»')
+                                input#star-1(type='radio', name='rating', value='1')
+                                label(for='star-1', title='Оценка «1»')
+                    li.goods-list__item.goods-list__item--double
+                        a(href='#!')
+                            .good-images.featured_products2
+                        p.info
+                            span Lorem ipsum dolor
+                            br
+                            span.old-price $100.00
+                            span.new-price $90.00
+                            br
+                            i.rating-area
+                                input#star-5(type='radio', name='rating', value='5')
+                                label(for='star-5', title='Оценка «5»')
+                                input#star-4(type='radio', name='rating', value='4')
+                                label(for='star-4', title='Оценка «4»')
+                                input#star-3(type='radio', name='rating', value='3')
+                                label(for='star-3', title='Оценка «3»')
+                                input#star-2(type='radio', name='rating', value='2')
+                                label(for='star-2', title='Оценка «2»')
+                                input#star-1(type='radio', name='rating', value='1')
+                                label(for='star-1', title='Оценка «1»')
+
+                    li.goods-list__item.goods-list__item--double
+                        a(href='#!')
+                            .good-images.featured_products3
+                        p.info
+                            span Lorem ipsum dolor
+                            br
+                            span.old-price $100.00
+                            span.new-price $90.00
+                            br
+                            i.rating-area
+                                input#star-5(type='radio', name='rating', value='5')
+                                label(for='star-5', title='Оценка «5»')
+                                input#star-4(type='radio', name='rating', value='4')
+                                label(for='star-4', title='Оценка «4»')
+                                input#star-3(type='radio', name='rating', value='3')
+                                label(for='star-3', title='Оценка «3»')
+                                input#star-2(type='radio', name='rating', value='2')
+                                label(for='star-2', title='Оценка «2»')
+                                input#star-1(type='radio', name='rating', value='1')
+                                label(for='star-1', title='Оценка «1»')
+                ul.goods-list
+                    li.goods-list__item.goods-list__item--double
+                        a(href='#!')
+                            .good-images.featured_products4
+                        p.info
+                            span Lorem ipsum dolor
+                            br
+                            span.old-price $100.00
+                            span.new-price $90.00
+                            br
+                            i.rating-area
+                                input#star-5(type='radio', name='rating', value='5')
+                                label(for='star-5', title='Оценка «5»')
+                                input#star-4(type='radio', name='rating', value='4')
+                                label(for='star-4', title='Оценка «4»')
+                                input#star-3(type='radio', name='rating', value='3')
+                                label(for='star-3', title='Оценка «3»')
+                                input#star-2(type='radio', name='rating', value='2')
+                                label(for='star-2', title='Оценка «2»')
+                                input#star-1(type='radio', name='rating', value='1')
+                                label(for='star-1', title='Оценка «1»')
+                    li.goods-list__item.goods-list__item--double
+                        a(href='#!')
+                            .good-images.featured_products5
+                        p.info
+                            span Lorem ipsum dolor
+                            br
+                            span.old-price $100.00
+                            span.new-price $90.00
+                            br
+                            i.rating-area
+                                input#star-5(type='radio', name='rating', value='5')
+                                label(for='star-5', title='Оценка «5»')
+                                input#star-4(type='radio', name='rating', value='4')
+                                label(for='star-4', title='Оценка «4»')
+                                input#star-3(type='radio', name='rating', value='3')
+                                label(for='star-3', title='Оценка «3»')
+                                input#star-2(type='radio', name='rating', value='2')
+                                label(for='star-2', title='Оценка «2»')
+                                input#star-1(type='radio', name='rating', value='1')
+                                label(for='star-1', title='Оценка «1»')
+                    li.goods-list__item.goods-list__item--double
+                        a(href='#!')
+                            .good-images.featured_products6
+                        p.info
+                            span Lorem ipsum dolor
+                            br
+                            span.old-price $100.00
+                            span.new-price $90.00
+                            br
+                            i.rating-area
+                                input#star-5(type='radio', name='rating', value='5')
+                                label(for='star-5', title='Оценка «5»')
+                                input#star-4(type='radio', name='rating', value='4')
+                                label(for='star-4', title='Оценка «4»')
+                                input#star-3(type='radio', name='rating', value='3')
+                                label(for='star-3', title='Оценка «3»')
+                                input#star-2(type='radio', name='rating', value='2')
+                                label(for='star-2', title='Оценка «2»')
+                                input#star-1(type='radio', name='rating', value='1')
+                                label(for='star-1', title='Оценка «1»')
+
+                // .jcarousel5
+            // .goods-block
+        // .col-right block-4-goods
+        // ====================== END OF JCAROUSEL 5 ========================
+    // .container
+    .partners
+        .container
+            a(href='#!')
+                img.img5(src='images/brands.png')
+// main

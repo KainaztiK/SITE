@@ -1,0 +1,35 @@
+header.site-header
+    .container
+        .main-logo
+            a(href='')
+                img(src='images/logo.png' alt='MarketSupply')
+        .header-right-part
+            ul.site-header__nav
+                li
+                    a(href='#!') My Account
+                li
+                    a(href='#!') Wishlist
+                li
+                    a(href='#!') My cart
+                li
+                    a(href='#!') Checkout
+                li
+                    a(href='#!') Login
+            // .site-header__nav
+            .total-sum
+                span total
+                br
+                span $600.00
+            .total-icon
+                a(href='#!')
+                    img(src='images/cart.png')
+            form.site-search(method='post')
+                input.site-search-field(type='text' name='search' placeholder='Search here...')
+                button.site-search-btn()
+                    img(src='images/search.png')
+                    form.site-search(method='post')
+                    i.fa.fa-search(aria-hidden='true')
+            // .site-search
+        // .header-right-part
+    // .container
+// header

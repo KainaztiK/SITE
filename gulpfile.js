@@ -65,16 +65,18 @@ gulp.task('copy:images', function(){
 /* -------------Copy------------- */
 gulp.task('copy', gulp.parallel('copy:fonts', 'copy:images'));
 
+
 /* -------------Watchers------------- */
 gulp.task('watch', function (){
-    gulp.watch('source/template/**/*.pug', gulp.series('templates:compile'));
+    gulp.watch('source/template/**/*.png', gulp.series('templates:compile'));
     gulp.watch('source/styles/**/*.scss', gulp.series('styles:compile'));
 });
+
 
 /* default */
 gulp.task('default', gulp.series(
     'clean',
-    gulp.parallel('templates:compile', 'styles:compile','sprite', 'copy'),
+    gulp.parallel('templates:compile', 'styles:compile', 'sprite', 'copy'),
     gulp.parallel('watch', 'server')
     )
 )
